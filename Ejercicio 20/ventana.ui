@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ventana</class>
+ <widget class="QWidget" name="Ventana">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="Boton" name="boton_1">
+       <property name="text">
+        <string>Mi dentista</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Boton" name="boton_2">
+       <property name="text">
+        <string>Visitas</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Boton" name="boton_3">
+       <property name="text">
+        <string>Tecnicas de higiene</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Boton" name="boton_4">
+       <property name="text">
+        <string>Mi boca</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Boton" name="boton_5">
+       <property name="text">
+        <string>Hora de cepillarse</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Boton</class>
+   <extends>QPushButton</extends>
+   <header>boton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
